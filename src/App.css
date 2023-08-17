@@ -1,0 +1,51 @@
+.contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.menuButtons {
+  margin-bottom: 25px;
+}
+.btn {
+  cursor: pointer;
+  color: rgb(246, 250, 252);
+  font-weight: 600;
+  margin: 0 8px;
+  border: 2px rgb(105, 105, 235) solid;
+  background: rgb(6, 105, 143);
+  border-radius: 3px;
+  outline: 2px rgb(109, 83, 109) solid;
+  outline-offset: -3px;
+}
+.itemImage {
+  width: 300px;
+  height: 200px;
+}
+.dishes {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  /* background: red; */
+}
+.menuTitle {
+  text-indent: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
