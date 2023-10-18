@@ -21,20 +21,3 @@ const Categories = ({ filteredItems, categories, selectedCategory }) => {
 };
 
 export default Categories;
-{
-  /* ...manual buttons  */
-}
-{
-  /* <button className="btn" onClick={() => filteredItems("all")}>
-  All
-  </button>
-  <button className="btn" onClick={() => filteredItems("breakfast")}>
-  Breakfast
-</button>
-<button className="btn" onClick={() => filteredItems("lunch")}>
-  Lunch
-  </button>
-  <button className="btn" onClick={() => filteredItems("shakes")}>
-  Shakes
-</button> */
-}
